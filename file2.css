@@ -1,4 +1,6 @@
-.nav a {
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/*.nav a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
@@ -9,10 +11,11 @@
 .nav li {
   display: inline;
 }
+*/
 
 .jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
-  height: 500px;
+  background-image:url('http://www.hdwallpapers.org/walls/blue-sky-nature-sea-reflection-wide.jpg');
+  height: 830px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,14 +27,20 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+  font-size: 75px;  
+  font-family: Open+Sans;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 2px 2px #000000;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  padding-top: 25px;
 }
 
 .learn-more {
@@ -39,11 +48,52 @@
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: Open+Sans;
   font-size: 18px;
   font-weight: bold;
 }
 
-.learn-more a {
+/*.learn-more a {
   color: #00b0ff;
+  text-align: center;
+}
+*/
+
+.ABOUT {
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+    text-align: center;
+}
+
+.ABOUT h2 {
+    color: #393c3d;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ABOUT p {
+    font-size:30px;
+    margin-bottom:13px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Experiences {
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+    text-align: center;
+}
+
+.Experiences h2 {
+    color: #393c3d;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Experiences p {
+    font-size:30px;
+    margin-bottom:13px;
+    text-align: center;
 }
