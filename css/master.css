@@ -59,6 +59,44 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+
+  .showbox {
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+
+
+  .showbox.slideright:hover {
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+  }
+
+    .showbox.slidescale:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+      .showbox.sliderotate:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+
 .ie7 body{
 	overflow:hidden;
 }
@@ -74,8 +112,8 @@ a{
 	clear: both;
 }
 .container > header{
-	padding: 30px 30px 10px 20px;
-	margin: 0px 20px 10px 20px;
+	padding: 0px 30px 0px 20px;
+	margin: 0px 20px 0px 20px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -103,7 +141,7 @@ a{
 /* Header Style */
 .codrops-top{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	line-height: 40px;
+	line-height: 25px;
 	font-size: 20px;
 	width: 100%;
 	background: #000;
@@ -114,9 +152,12 @@ a{
 	-moz-box-shadow: 1px 0px 2px #000;
 	-webkit-box-shadow: 1px 0px 2px #000;
 	box-shadow: 1px 0px 2px #000;
+		bottom-padding: 0px;
+		padding-top: 5px;
 }
 .codrops-top a{
-	padding: 0px 10px;
+	padding: 0px 25px;
+	bottom-padding: 0px;
 	letter-spacing: 1px;
 	color: #ddd;
 	display: block;
@@ -124,6 +165,7 @@ a{
 }
 .codrops-top a:hover{
 	color: #fff;
+		bottom-padding: 0px;
 }
 .codrops-top span.right{
 	float: right;
@@ -135,7 +177,9 @@ a{
 
 p.codrops-demos{
 	display: block;
-	padding: 0px 0px;
+	padding: 0px 25px;
+	text-align: center;
+	letter-spacing: 40px;
 }
 p.codrops-demos a,
 p.codrops-demos a.current-demo,
@@ -144,7 +188,7 @@ p.codrops-demos a.current-demo:hover{
 	border: 1px solid #000000;
 	padding: 4px 10px 3px;
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 20px;
 	margin: 2px 30px;
 	font-weight: 800;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -156,6 +200,8 @@ p.codrops-demos a.current-demo:hover{
 	-moz-border-radius: 5px;
 	border-radius: 3px;
 	background: transparent;
+	text-align: center;
+	letter-spacing: 2px;
 	/*background: -moz-linear-gradient(top, #000000 0%, #3d3d3d 44%, #000000 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(44%,#3d3d3d), color-stop(100%,#000000));
 	background: -webkit-linear-gradient(top, #000000 0%,#3d3d3d 44%,#000000 100%);
@@ -191,6 +237,7 @@ p.codrops-demos a.current-demo:hover{
 	p.codrops-demos {
 		position: relative;
 		top: auto;
-		left: auto;
+		text-align: center;
+
 	}
 }

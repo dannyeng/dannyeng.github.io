@@ -1,6 +1,169 @@
+.slide1{
+    height: 760px;
+}
+
+.slide2{
+    height: 50px;
+    width: 100%;
+    background: black;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    letter-spacing: 1px;
+}
+
+.slide3{
+    height: 150px;
+    width: 100%;
+    background: transparent;
+    font-size: 35px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20%;
+    text-align: center;
+    color: gray;
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    letter-spacing: 1px;
+}
+
+.main{
+          height: 300px;
+    display: table;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+
+
+.slide4{
+    height: 50px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+}
+
+.slide5{
+    height: 150px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: #CCCCCC;
+    padding-left:20%
+    float:right; 
+    padding-right:10%;
+    padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        letter-spacing: 1px;
+}
+
+
+
+.slide6{
+    height: 50px;
+    width: 100%;
+    background: black ;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.slide7{
+    height: 140px;
+    width: 100%;
+    background: black ;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: white;
+    padding-left:20%
+    float:right; 
+    padding-right:10%;
+    padding-top: 50px;
+        padding-bottom: 130px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+}
+
+.quote{
+    height: 30px;
+    background: #FF6600;
+    width:100%;
+    letter-spacing: 1px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.slide8{
+    height: 50px;
+    width: 100%;
+    background: black ;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.slide9{
+    height: 100px;
+    width: 100%;
+    background: black ;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: white;
+    padding-left:20%
+    float:right; 
+    padding-right:10%;
+    padding-top: 50px;
+        padding-bottom: 50px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+}
+
+
+
 .cb-slideshow,
 .cb-slideshow:after { 
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
@@ -33,9 +196,9 @@
 .cb-slideshow li div { 
     z-index: 1000;
     position: absolute;
-    bottom: 30px;
     left: 0px;
     width: 100%;
+    bottom: 100px;
     text-align: center;
     opacity: 0;
     color: #fff;
@@ -43,7 +206,8 @@
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s; 
+    animation: titleAnimation 36s linear infinite 0s;
+    margin-bottom: 2em; 
 }
 .cb-slideshow li div h3 { 
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -52,10 +216,10 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/15.jpg) 
+    background-image: url(../images/48.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/41.jpg);
+    background-image: url(../images/33.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -63,7 +227,7 @@
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../images/26.jpg);
+    background-image: url(../images/43.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -71,7 +235,7 @@
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/27.jpg);
+    background-image: url(../images/19.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -87,13 +251,18 @@
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../images/18.jpg);
+    background-image: url(../images/6.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
+
+
+
+
+
 .cb-slideshow li:nth-child(2) div { 
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -129,6 +298,10 @@
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
+
+
+
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
@@ -221,4 +394,5 @@
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
+}
 }

@@ -1,6 +1,217 @@
+.slide1{
+    height: 760px;
+}
+
+.slide2{
+    height: 50px;
+    width: 100%;
+    background: #191919;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;    
+    display: table;
+    margin: 0 auto;
+}
+
+.main{
+          height: 270px;
+    display: table;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.slide3{
+    height: 100px;
+    width: 100%;
+    background: #191919;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.slide4{
+    height: 50px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-top: 70px;
+    display: table;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.slide5{
+    height: 150px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+        padding-bottom: 0px;
+           display: table;
+    margin: 0 auto;
+    letter-spacing: 3px;
+}
+
+.slide6{
+    height: 50px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: #191919;
+    padding-top: 50px;
+    display: table;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.slide7{
+    height: 100px;
+    width: 100%;
+    background: #383838 ;
+    font-size: 20px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: table;
+    margin: 0 auto;
+    letter-spacing: 3px;
+}
+
+.slide8{
+    height: 50px;
+    width: 100%;
+    background: black;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 170px;    
+    display: table;
+    margin: 0 auto;
+}
+
+.slide9{
+    height: 100px;
+    width: 100%;
+    background: black;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    letter-spacing: 2px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide10{
+    height: 50px;
+    width: 100%;
+    background: gray;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #993D00;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;    
+    display: table;
+    margin: 0 auto;
+}
+
+.slide11{
+    height: 100px;
+    width: 100%;
+    background: gray;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide12{
+    height: 50px;
+    width: 100%;
+    background: black;
+    font-size: 50px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    font-style: bold;
+    text-align: center;
+    color: #FF6600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;    
+    display: table;
+    margin: 0 auto;
+}
+
+.slide13{
+    height: 100px;
+    width: 100%;
+    background: black;
+    font-size: 30px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80%;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 .cb-slideshow,
 .cb-slideshow:after { 
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
@@ -33,9 +244,9 @@
 .cb-slideshow li div { 
     z-index: 1000;
     position: absolute;
-    bottom: 30px;
     left: 0px;
     width: 100%;
+    bottom: 100px;
     text-align: center;
     opacity: 0;
     color: #fff;
@@ -43,7 +254,8 @@
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s; 
+    animation: titleAnimation 36s linear infinite 0s;
+    margin-bottom: 2em; 
 }
 .cb-slideshow li div h3 { 
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -94,6 +306,11 @@
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
+
+
+
+
+
 .cb-slideshow li:nth-child(2) div { 
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -129,6 +346,10 @@
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
+
+
+
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
@@ -221,4 +442,5 @@
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
+}
 }
