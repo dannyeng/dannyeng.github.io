@@ -322,10 +322,10 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/15.jpg) 
+    background-image: url(../images/26.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/38.jpg);
+    background-image: url(../images/44.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
