@@ -20,7 +20,7 @@
 
 .slide3{
     height: 150px;
-    width: 100%;
+    width: auto;
     background: transparent;
     font-size: 35px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -31,6 +31,8 @@
     margin: 0 auto;
     padding-top: 60px;
     letter-spacing: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .main{
@@ -45,7 +47,7 @@
 
 .slide4{
     height: 50px;
-    width: 100%;
+    width: auto;
     background: #383838 ;
     font-size: 50px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -53,23 +55,22 @@
     font-style: bold;
     text-align: center;
     color: #FF6600;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 70px;
 }
 
 .slide5{
     height: 150px;
-    width: 100%;
+    width: auto;
     background: #383838 ;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-weight: 80%;
     text-align: center;
     color: #CCCCCC;
-    padding-left:20%
-    float:right; 
-    padding-right:10%;
+        padding-left: 5%;
+    padding-right: 5%;
     padding-top: 50px;
         padding-bottom: 50px;
         margin: 0 auto;
@@ -96,16 +97,15 @@
 
 .slide7{
     height: 140px;
-    width: 100%;
+    width: auto;
     background: black ;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-weight: 80%;
     text-align: center;
     color: white;
-    padding-left:20%
-    float:right; 
-    padding-right:10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 50px;
         padding-bottom: 130px;
         letter-spacing: 1px;
@@ -143,16 +143,15 @@
 
 .slide9{
     height: 100px;
-    width: 100%;
+    width: auto;
     background: black ;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-weight: 80%;
     text-align: center;
     color: white;
-    padding-left:20%
-    float:right; 
-    padding-right:10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 50px;
         padding-bottom: 50px;
         letter-spacing: 1px;

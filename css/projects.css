@@ -30,7 +30,7 @@
 
 .slide3{
     height: 100px;
-    width: 100%;
+    width: auto;
     background: #191919;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -42,6 +42,8 @@
     display: table;
     margin: 0 auto;
     text-align: center;
+        padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -98,7 +100,7 @@
 
 .slide9{
     height: 100px;
-    width: 100%;
+    width: auto;
     background: black;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -110,6 +112,8 @@
     display: table;
     margin: 0 auto;
     text-align: center;
+        padding-left: 5%;
+    padding-right: 5%;
 }
 
 .slide10{
@@ -164,7 +168,7 @@
 
 .slide13{
     height: 100px;
-    width: 100%;
+    width: auto;
     background: black;
     font-size: 30px;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -176,6 +180,8 @@
     display: table;
     margin: 0 auto;
     text-align: center;
+        padding-left: 5%;
+    padding-right: 5%;
 }
 
 
