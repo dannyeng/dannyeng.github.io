@@ -233,6 +233,17 @@
     text-align: center;
 }
 
+
+.cover{
+
+    height:50px;
+    width: 100%;
+    text-align: center;
+        display: table;
+    margin: 0 auto;
+
+}
+
 .slide12{
     height: 50px;
     width: 100%;
