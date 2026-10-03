@@ -3376,138 +3376,6 @@ input, select, textarea {
 
 		}
 
-/* Companies & Projects */
-
-	.companies {
-		scroll-margin-top: 6em;
-	}
-
-	.companies .companies-header {
-		margin-bottom: 1.25em;
-	}
-
-		.companies .companies-header h2 {
-			font-size: 0.8em;
-			margin-bottom: 0;
-		}
-
-	.companies .companies-kicker {
-		color: #2ebaae;
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.6em;
-		font-weight: 800;
-		letter-spacing: 0.25em;
-		margin: 0 0 0.65em 0;
-		text-transform: uppercase;
-	}
-
-	.companies .company-list {
-		display: grid;
-		gap: 0.65em;
-	}
-
-	.companies .company-card {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		background: rgba(255, 255, 255, 0.6);
-		border: solid 1px rgba(160, 160, 160, 0.3);
-		padding: 0.85em;
-	}
-
-		.companies .company-card:hover {
-			background: #ffffff;
-			border-color: #2ebaae;
-		}
-
-	.companies .company-monogram {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background: #3c3b3b;
-		color: #ffffff;
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.75em;
-		font-weight: 900;
-		height: 2.4em;
-		letter-spacing: 0;
-		margin-right: 0.9em;
-		width: 2.4em;
-	}
-
-	.companies .company-details {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		min-width: 0;
-	}
-
-		.companies .company-details strong {
-			color: #3c3b3b;
-			font-family: "Raleway", Helvetica, sans-serif;
-			font-size: 0.72em;
-			font-weight: 800;
-			letter-spacing: 0.08em;
-			line-height: 1.35;
-			text-transform: uppercase;
-		}
-
-		.companies .company-details span {
-			color: #aaaaaa;
-			font-size: 0.78em;
-			line-height: 1.5;
-		}
-
-	.companies .company-arrow {
-		color: #aaaaaa;
-		font-size: 0.95em;
-		margin-left: auto;
-		padding-left: 0.75em;
-	}
-
-	.companies .company-card:hover .company-monogram {
-		background: #2ebaae;
-	}
-
-	.companies .company-card:hover .company-arrow {
-		color: #2ebaae;
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		.companies .company-list {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		.companies .company-list {
-			grid-template-columns: 1fr;
-		}
-
-	}
-
 /* Intro */
 
 	#intro .logo {
@@ -3692,6 +3560,25 @@ input, select, textarea {
 					margin-top: 0;
 					padding-top: 0;
 				}
+
+		#menu .menu-work h2 {
+			font-size: 0.8em;
+			margin-bottom: 1.5em;
+		}
+
+		#menu .menu-work .links > li {
+			margin-top: 1em;
+			padding-top: 1em;
+		}
+
+			#menu .menu-work .links > li h3 {
+				margin-bottom: 0.25em;
+			}
+
+			#menu .menu-work .links > li p {
+				color: #aaaaaa;
+				letter-spacing: 0.15em;
+			}
 
 		body.is-menu-visible #menu {
 			-moz-transform: translateX(0);
