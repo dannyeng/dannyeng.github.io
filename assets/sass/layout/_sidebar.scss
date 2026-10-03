@@ -32,3 +32,112 @@
 			overflow-x: hidden;
 		}
 	}
+
+/* Companies & Projects */
+
+	.companies {
+		scroll-margin-top: 6em;
+
+		.companies-header {
+			margin-bottom: 1.25em;
+
+			h2 {
+				font-size: 0.8em;
+				margin-bottom: 0;
+			}
+		}
+
+		.companies-kicker {
+			color: _palette(accent);
+			font-family: _font(family-heading);
+			font-size: 0.6em;
+			font-weight: _font(weight-heading-bold);
+			letter-spacing: _font(kerning-heading);
+			margin: 0 0 0.65em 0;
+			text-transform: uppercase;
+		}
+
+		.company-list {
+			display: grid;
+			gap: 0.65em;
+		}
+
+		.company-card {
+			@include vendor('align-items', 'center');
+			@include vendor('display', 'flex');
+			background: rgba(255, 255, 255, 0.6);
+			border: solid 1px _palette(border);
+			padding: 0.85em;
+
+			&:hover {
+				background: #ffffff;
+				border-color: _palette(accent);
+			}
+		}
+
+		.company-monogram {
+			@include vendor('align-items', 'center');
+			@include vendor('display', 'flex');
+			@include vendor('justify-content', 'center');
+			background: _palette(fg-bold);
+			color: #ffffff;
+			font-family: _font(family-heading);
+			font-size: 0.75em;
+			font-weight: _font(weight-heading-extrabold);
+			height: 2.4em;
+			letter-spacing: 0;
+			margin-right: 0.9em;
+			width: 2.4em;
+		}
+
+		.company-details {
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'column');
+			min-width: 0;
+
+			strong {
+				color: _palette(fg-bold);
+				font-family: _font(family-heading);
+				font-size: 0.72em;
+				font-weight: _font(weight-heading-bold);
+				letter-spacing: 0.08em;
+				line-height: 1.35;
+				text-transform: uppercase;
+			}
+
+			span {
+				color: _palette(fg-light);
+				font-size: 0.78em;
+				line-height: 1.5;
+			}
+		}
+
+		.company-arrow {
+			color: _palette(fg-light);
+			font-size: 0.95em;
+			margin-left: auto;
+			padding-left: 0.75em;
+		}
+
+		.company-card:hover {
+			.company-monogram {
+				background: _palette(accent);
+			}
+
+			.company-arrow {
+				color: _palette(accent);
+			}
+		}
+
+		@include breakpoint('<=large') {
+			.company-list {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+		}
+
+		@include breakpoint('<=small') {
+			.company-list {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
